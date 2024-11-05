@@ -13,7 +13,7 @@ public class acmp1116 {
 		int s2 = in.nextInt();
 		int time1 = c1 * 3600 + m1 * 60 + s1;
 		int time2 = c2 * 3600 + m2 * 60 + s2;
-		out.println(time2 - time1);
+		out.println(time2-time1);
 
 	}
 
