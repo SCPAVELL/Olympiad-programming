@@ -3,10 +3,14 @@ package acmp;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class acmp554 {
+public class acmp773 {
+
 	void solve(Scanner in, PrintWriter out) {
+
 		int i = in.nextInt();
-		out.print(1 + (i + 1) * i / 2);
+		int b = in.nextInt();
+		int totalMattrasses = (int) Math.pow(i, 2) * b;
+		out.print(totalMattrasses);
 	}
 
 	void run() {
@@ -16,6 +20,6 @@ public class acmp554 {
 	}
 
 	public static void main(String args[]) {
-		new acmp554().run();
+		new acmp773().run();
 	}
 }
