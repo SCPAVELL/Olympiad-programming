@@ -19,7 +19,7 @@ public class acmp149 {
 				System.out.print(" ");
 			}
 		}
-		in.close();
+	
 
 	}
 
